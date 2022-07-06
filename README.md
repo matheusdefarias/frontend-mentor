@@ -5,7 +5,8 @@ Repository containing the solutions of the Frontend Mentor platform's challenges
 <p align="center">Repository containing the solutions of the Frontend Mentor platform's challenges</p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=00856F&labelColor=000000" alt="PRs welcome!" />
+  <img alt="Frontend Mentor" src="https://github.com/matheusdefarias/frontend-mentor/blob/main/frontend-mentor-main.PNG" width="100%">
+</p>
 
 <p align="center">
   <a href="https://www.frontendmentor.io/">Frontend Mentor Platform</a>&nbsp;&nbsp;&nbsp;
