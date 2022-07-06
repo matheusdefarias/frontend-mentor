@@ -1,6 +1,3 @@
-# frontend-mentor
-Repository containing the solutions of the Frontend Mentor platform's challenges
-
 <h1 align="center">Frontend Mentor Repository</h1>
 <p align="center">Repository containing the solutions of the Frontend Mentor platform's challenges</p>
 
