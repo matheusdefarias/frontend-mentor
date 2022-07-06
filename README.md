@@ -6,6 +6,6 @@
 </p>
 
 <p align="center">
-  <a href="https://www.frontendmentor.io/">Frontend Mentor Platform</a>&nbsp;&nbsp;&nbsp;
+  <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor Platform</a>&nbsp;&nbsp;&nbsp;
 </p>
 
