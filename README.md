@@ -9,3 +9,5 @@
   <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor Platform</a>&nbsp;&nbsp;&nbsp;
 </p>
 
+[Frontend Mentor Platform](https://www.frontendmentor.io/){:target="_blank" rel="noopener"}
+
