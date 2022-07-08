@@ -349,11 +349,5 @@ button {
 
   button:hover {
     background-color: var(--dark-green);
-  }
-
-  button:focus {
-    background-color: var(--dark-green);
-    outline: none;
-  }
-  
+  }  
 }
