@@ -8,3 +8,17 @@
 <p align="center">
   <a href="https://www.frontendmentor.io/" target="_blank">Frontend Mentor Platform</a>&nbsp;&nbsp;&nbsp;
 </p>
+
+### Finished Projects
+
+| Difficulty | |
+|---|---|
+| Newbie | :star: |
+| Junior | :star: :star: |
+| Intermediate | :star: :star: :star:  |
+| Advanced | :star: :star: :star: :star: :star: |
+| Guru | :star: :star: :star: :star: :star: :star: |
+
+| Name | Difficulty | Technologies / Approaches |
+|---|---|---|
+|  [1-product-preview-card-component](https://github.com/matheusdefarias/frontend-mentor/blob/main/1-product-preview-card-component/) | :star:   | HTML, CSS |
