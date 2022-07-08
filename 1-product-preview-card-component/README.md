@@ -1,7 +1,5 @@
 # Frontend Mentor - Product preview card component
 
-<a href="https://frontend-mentor-gamma-two.vercel.app/">Solution developed</a>
-
 ![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
