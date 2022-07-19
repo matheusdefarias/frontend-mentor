@@ -71,8 +71,6 @@ main {
   background-color: var(--white);
 
   border-radius: 2rem;
-
-  margin-bottom: 2rem;
 }
 
 .qr-code-image-sction {
@@ -101,7 +99,7 @@ main {
   text-align: center;
 }
 
-.info-section h1 {
+.info-section h2 {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   font-size: 2.2rem;
@@ -155,8 +153,6 @@ main {
     background-color: var(--white);
 
     border-radius: 2rem;
-
-    margin-bottom: 2rem;
   }
 
   .qr-code-image-sction {
@@ -185,7 +181,7 @@ main {
     text-align: center;
   }
 
-  .info-section h1 {
+  .info-section h2 {
     font-family: "Outfit", sans-serif;
     font-weight: 700;
     font-size: 2.2rem;
