@@ -44,13 +44,13 @@ body {
 
 /*==============================================================*/
 
-footer {
+/* footer {
   font-size: 11px;
   text-align: center;
 }
 footer a {
   color: hsl(228, 45%, 44%);
-}
+} */
 
 main {
   display: flex;
@@ -128,13 +128,13 @@ main {
 /*==================== RESPONSIVE ====================*/
 
 @media (min-width: 1440px) {
-  footer {
+  /* footer {
     font-size: 11px;
     text-align: center;
   }
   footer a {
     color: hsl(228, 45%, 44%);
-  }
+  } */
 
   main {
     display: flex;
