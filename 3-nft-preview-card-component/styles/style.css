@@ -135,3 +135,99 @@ main {
 
   padding-right: 3rem;
 }
+
+.info-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: min(32.6rem, 100%);
+
+  padding-inline: 2.3rem;
+
+  margin-bottom: 1.6rem;
+}
+
+.info-section .eth-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.7rem;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  font-size: 1.56rem;
+
+  color: var(--cyan);
+
+  margin-left: 0.1rem;
+}
+
+.info-section .time-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: 0.7rem;
+
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1.56rem;
+
+  color: var(--paragraph-font-color);
+}
+
+hr {
+  width: min(27.8rem, 100%);
+
+  border: none;
+  border-top: 0.1rem solid var(--grayish-blue);
+  opacity: 0.2;
+  
+  margin-left: 2.4rem;
+
+  margin-bottom: 1.55rem;
+}
+
+.user-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+  width: min(32.6rem, 100%);
+
+  padding-inline: 2.25rem;
+
+  gap: 1.45rem;  
+}
+
+.user-section img {
+  max-width: min(3.5rem, 100%);
+  max-height: 3.5rem;
+
+  border-radius: 100%;
+  border: 0.15rem solid; 
+  border-color: var(--white);
+}
+
+.credits-info {
+  display: flex;
+  flex-direction: row;
+
+  gap: 0.2rem;
+}
+
+.user-section p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 00;
+  font-size: 1.56rem;
+
+  color: var(--paragraph-font-color);
+}
+
+.user-section p.name-info {
+  color: var(--white);
+}
