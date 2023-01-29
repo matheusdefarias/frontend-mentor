@@ -72,7 +72,7 @@ main {
 
 .card-section {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   align-items: flex-start;
 
   width: min(32.6rem, 100%);
@@ -94,7 +94,7 @@ main {
 }
 
 .nft-image-section img {
-  max-width: min(27.8rem, 100%); 
+  max-width: min(27.8rem, 100%);
 
   border-radius: 1rem;
 }
@@ -116,9 +116,19 @@ main {
   color: var(--white);
 
   margin-top: 0.1rem;
-  margin-bottom: 1.3rem;  
+  margin-bottom: 1.3rem;
 
   letter-spacing: 0.07rem;
+
+  text-decoration: none;
+}
+
+.header-section h2 a {
+  text-decoration: none;
+}
+
+.header-section h2 a:visited {
+  color: inherit;
 }
 
 .header-section p {
@@ -128,7 +138,7 @@ main {
 
   color: var(--paragraph-font-color);
 
-  margin-bottom: 1.5rem;  
+  margin-bottom: 1.5rem;
 
   letter-spacing: 0.006rem;
   line-height: 2.6rem;
@@ -186,7 +196,7 @@ hr {
   border: none;
   border-top: 0.1rem solid var(--grayish-blue);
   opacity: 0.2;
-  
+
   margin-left: 2.4rem;
 
   margin-bottom: 1.55rem;
@@ -196,12 +206,12 @@ hr {
   display: flex;
   flex-direction: row;
   align-items: center;
-  
+
   width: min(32.6rem, 100%);
 
   padding-inline: 2.25rem;
 
-  gap: 1.45rem;  
+  gap: 1.45rem;
 }
 
 .user-section img {
@@ -209,7 +219,7 @@ hr {
   max-height: 3.5rem;
 
   border-radius: 100%;
-  border: 0.15rem solid; 
+  border: 0.15rem solid;
   border-color: var(--white);
 }
 
@@ -228,6 +238,254 @@ hr {
   color: var(--paragraph-font-color);
 }
 
-.user-section p.name-info {
+.user-section a.name-info {
+  font-family: "Outfit", sans-serif;
+  font-weight: 00;
+  font-size: 1.56rem;
+
   color: var(--white);
+
+  text-decoration: none;
+}
+
+.color-image {
+  display: none;
+}
+
+/*==================== RESPONSIVE ====================*/
+
+@media (min-width: 1440px) {
+  /* footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+} */
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: min(32.6rem, 100%);
+    height: 54.3rem;
+
+    background-color: var(--very-dark-blue-card-bg);
+
+    border-radius: 1.6rem;
+  }
+
+  .nft-image-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 2.3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .nft-image-section img {
+    max-width: min(27.8rem, 100%);
+
+    border-radius: 1rem;
+  }
+
+  .color-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 27.8rem;
+    height: 27.8rem;
+
+    border-radius: 1rem;
+
+    margin-top: 2.3rem;
+    margin-bottom: 2.5rem;
+    margin-left: 2.4rem;
+
+    opacity: 0;
+        
+    background-color: rgba(0, 255, 247, 0.5);
+
+    transition: background-color ease-in-out 0.3s;
+    transition: opacity ease-in-out 0.3s;
+  }
+
+  .color-image:hover {
+    background-color: rgba(0, 255, 247, 0.5);
+    opacity: 1;
+    transition: background-color ease-in-out 0.3s;
+    transition: opacity ease-in-out 0.3s;
+  }
+
+  .header-section {
+    display: flex;
+    flex-direction: column;
+
+    width: min(32.6rem, 100%);
+
+    margin-left: 2.4rem;
+  }
+
+  .header-section h2 {
+    width: 18.1rem;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 2.1rem;
+
+    color: var(--white);
+
+    margin-top: 0.1rem;
+    margin-bottom: 1.3rem;
+
+    letter-spacing: 0.07rem;
+  }
+
+  .header-section h2 a {
+    text-decoration: none;
+  }
+
+  .header-section h2 a:hover {
+    color: var(--cyan);
+  }
+
+  .header-section p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 200;
+    font-size: 1.6rem;
+
+    color: var(--paragraph-font-color);
+
+    margin-bottom: 1.5rem;
+
+    letter-spacing: 0.006rem;
+    line-height: 2.6rem;
+
+    padding-right: 3rem;
+  }
+
+  .info-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: min(32.6rem, 100%);
+
+    padding-inline: 2.3rem;
+
+    margin-bottom: 1.6rem;
+  }
+
+  .info-section .eth-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.7rem;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;
+    font-size: 1.56rem;
+
+    color: var(--cyan);
+
+    margin-left: 0.1rem;
+  }
+
+  .info-section .time-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.7rem;
+
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 1.56rem;
+
+    color: var(--paragraph-font-color);
+  }
+
+  hr {
+    width: min(27.8rem, 100%);
+
+    border: none;
+    border-top: 0.1rem solid var(--grayish-blue);
+    opacity: 0.2;
+
+    margin-left: 2.4rem;
+
+    margin-bottom: 1.55rem;
+  }
+
+  .user-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: min(32.6rem, 100%);
+
+    padding-inline: 2.25rem;
+
+    gap: 1.45rem;
+  }
+
+  .user-section img {
+    max-width: min(3.5rem, 100%);
+    max-height: 3.5rem;
+
+    border-radius: 100%;
+    border: 0.15rem solid;
+    border-color: var(--white);
+  }
+
+  .credits-info {
+    display: flex;
+    flex-direction: row;
+
+    gap: 0.2rem;
+  }
+
+  .user-section p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 00;
+    font-size: 1.56rem;
+
+    color: var(--paragraph-font-color);
+  }
+
+  .user-section a {
+    font-family: "Outfit", sans-serif;
+    font-weight: 00;
+    font-size: 1.56rem;
+
+    text-decoration: none;
+
+    color: var(--paragraph-font-color);
+  }
+
+  .user-section a.name-info {
+    color: var(--white);
+  }
+
+  .user-section a.name-info:hover {
+    color: var(--cyan);
+  }
 }
