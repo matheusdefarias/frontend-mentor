@@ -22,6 +22,7 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(224, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+  --light-purple: hsl(245, 83%, 69%);
   --white: hsl(0, 0%, 100%);
 
   --font-size-paragraph: 1.6rem;
@@ -257,4 +258,28 @@ main {
   letter-spacing: 0.015rem;
 
   cursor: pointer;
+}
+
+/*==================== RESPONSIVE ====================*/
+
+@media (min-width: 1440px) {
+  /* footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+} */
+
+  .plan-and-price-detail .change a:hover{
+    color: var(--light-purple);
+  }
+
+  .card-content button:hover {
+    background-color: var(--light-purple);
+  }
+
+  .cancel-order-button a:hover {
+    color: var(--dark-blue);
+  }
 }
