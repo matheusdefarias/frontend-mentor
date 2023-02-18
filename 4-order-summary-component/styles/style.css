@@ -1,0 +1,260 @@
+/*==================== GENERAL CONFIGURATION ====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+
+  /*====== MOBILE WIDTH ======*/
+  --mobile: 37.5rem;
+  /*====== DESKTOP WIDTH ======*/
+  --desktop: 144rem;
+
+  /*====== PRIMARY COLORS ======*/
+
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /*====== Neutral COLORS ======*/
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+  --white: hsl(0, 0%, 100%);
+
+  --font-size-paragraph: 1.6rem;
+
+  --container-box-shadow: -2px 24px 24px -11px rgba(163, 177, 223, 60%);
+  --btn-box-shadow: 5px 15px 20px rgba(154, 157, 214, 0.6);
+
+  /* 
+        font-family: 'Red Hat Display', sans-serif;
+    */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+
+  background-color: var(--pale-blue);
+}
+
+/*==============================================================*/
+
+/* footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+} */
+
+main {
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.card {
+  position: relative;
+  top: 2.2rem; 
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+
+  overflow: hidden;
+
+  width: min(var(--mobile), 100%);
+  min-height: 61.3rem;
+
+  background-color: var(--white);
+
+  border-radius: 2rem;
+
+  box-shadow: var(--container-box-shadow);
+}
+
+.card-header-image {
+  position: relative;
+  top: 0rem;
+  
+  width: min(var(--mobile), 100%);
+  height: 17.5rem;
+}
+
+.card-header-image img {
+  width: min(var(--mobile), 100%);
+  height: 17.5rem;
+
+  object-fit: cover;
+
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.card-content {
+  position: relative;
+  top: 0rem;
+
+  width: min(var(--mobile), 100%);
+  min-height: 43.9rem;
+}
+
+.card-content h1 {
+  text-align: center;
+
+  color: var(--dark-blue);
+
+  font-size: 2.35rem;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+
+  margin-top: 3.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.card-content p {
+  text-align: center;
+  justify-content: center;
+
+  font-size: var(--font-size-paragraph);
+  font-weight: 500;
+  font-family: "Red Hat Display", sans-serif;
+
+  padding-inline: 15%;
+
+  line-height: 2.7rem;
+
+  margin-bottom: 2.4rem;
+
+  color: var(--desaturated-blue);
+}
+
+.plan-and-price-detail {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+
+  width: min(30rem, 100%);
+  height: 8.6rem;
+
+  border-radius: 1rem;
+
+  background-color: var(--very-pale-blue);
+
+  margin-inline: auto;
+
+  margin-bottom: 2.5rem;
+}
+
+.plan-and-price-detail img {
+  margin-left: 1.8rem;
+  transform: scale(1.1, 1.1);
+}
+
+.plan-value {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  font-family: "Red Hat Display", sans-serif;
+  margin-top: 0.4rem;
+  margin-left: 2.4rem;
+
+  line-height: 2.2rem;
+}
+
+.plan-value .plan {
+  font-size: var(--font-size-paragraph);
+  font-weight: 900;
+  letter-spacing: -0.05rem;
+}
+
+.plan-value .value {
+  font-size: 1.5rem;
+  color: var(--desaturated-blue);
+}
+
+.plan-and-price-detail .change {
+  color: var(--bright-blue);
+
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 1.35rem;
+  font-weight: 900;
+
+  margin-top: 0.4rem;
+  margin-left: 5.5rem;
+}
+
+.plan-and-price-detail .change a {
+  color: inherit;
+}
+
+.card-content button {
+  display: block;
+
+  margin-inline: auto;
+
+  width: min(30rem, 100%);
+  height: 5.4rem;
+
+  border: none;
+  border-radius: 1rem;
+
+  color: white;
+
+  font-size: 1.63rem;
+  font-weight: 700;
+  font-family: "Red Hat Display", sans-serif;
+
+  letter-spacing: 0.015rem;
+
+  background-color: var(--bright-blue);
+  box-shadow: var(--btn-box-shadow);
+
+  cursor: pointer;
+
+  margin-bottom: 2.7rem;
+}
+
+.cancel-order-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cancel-order-button a {
+  text-decoration: none;
+
+  border: none;
+  border-radius: 1rem;
+
+  color: var(--desaturated-blue);
+
+  font-size: 1.6rem;
+  font-weight: 900;
+  font-family: "Red Hat Display", sans-serif;
+
+  letter-spacing: 0.015rem;
+
+  cursor: pointer;
+}
