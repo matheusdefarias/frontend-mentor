@@ -23,3 +23,6 @@
 |---|---|---|
 |  [1-product-preview-card-component](https://github.com/matheusdefarias/frontend-mentor/blob/main/1-product-preview-card-component/) | :star:   | HTML, CSS |
 |  [2-qr-code-component](https://github.com/matheusdefarias/frontend-mentor/blob/main/2-qr-code-component/) | :star:   | HTML, CSS |
+|  [3-nft-preview-card-component](https://github.com/matheusdefarias/frontend-mentor/blob/main/3-nft-preview-card-component/) | :star:   | HTML, CSS |
+|  [4-order-summary-component](https://github.com/matheusdefarias/frontend-mentor/blob/main/4-order-summary-component/) | :star:   | HTML, CSS |
+
