@@ -1,0 +1,207 @@
+/*==================== GENERAL CONFIGURATION ====================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%; /* 1rem = 10px */
+
+  /*====== MOBILE WIDTH ======*/
+  --mobile: 37.5rem;
+  /*====== DESKTOP WIDTH ======*/
+  --desktop: 144rem;
+
+  /*====== PRIMARY COLORS ======*/
+
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+
+  /*====== Neutral COLORS ======*/
+  --white: hsl(0, 0%, 100%);
+  --pale-blue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --dark-gray-blue: hsl(224, 30%, 27%);
+  --dark-purple: hsl(245, 92%, 71%);
+
+  /*====== Gradients ======*/
+  --light-slate-blue-background: hsl(252, 100%, 67%);
+  --light-royal-blue-background: hsl(241, 81%, 54%);
+
+  --violet-blue-circle: hsla(256, 72%, 46%, 1);
+  --persian-blue-circle: hsla(241, 72%, 46%, 0);
+
+  /*====== Hint
+  Use transparency to get the colour variations necessary to match the design.
+  Hint: look into using `hsla()`.
+  ======*/
+
+  --font-size-paragraph: 1.8rem;
+
+  --container-box-shadow: -2px 24px 24px -11px rgba(163, 177, 223, 60%);
+  --btn-box-shadow: 5px 15px 20px rgba(154, 157, 214, 0.6);
+
+  /* 
+          font-family: 'Hanken Grotesk', sans-serif;
+      */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/*==============================================================*/
+
+/* footer {
+  font-size: 11px;
+  text-align: center;
+}
+footer a {
+  color: hsl(228, 45%, 44%);
+} */
+
+main {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(247, 171, 171);
+}
+
+.card-container {
+  position: absolute;
+  top: 19.5rem;
+
+  width: min(var(--mobile, 100%));
+  height: 80.9rem;
+
+  background-color: var(--white);
+}
+
+header {
+  position: absolute;
+
+  /* width: inherit; */
+  width: min(var(--mobile, 100%));
+  height: 35.6rem;
+
+  background-image: linear-gradient(
+    to bottom,
+    var(--light-slate-blue-background),
+    var(--light-royal-blue-background)
+  );
+
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+}
+
+header > h2 {
+  text-align: center;
+
+  margin-block: 2.5rem;
+
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: var(--font-size-paragraph);
+  color: var(--light-lavender);
+}
+
+/* header section.header-points { */
+section.header-points {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 14rem;
+  height: 14rem;
+  
+  border-radius: 50%;
+  
+  background-image: linear-gradient(
+    to bottom,
+    var(--violet-blue-circle),
+    var(--persian-blue-circle)
+  );
+  
+  margin-inline: auto;  
+  margin-top: 0rem;
+  margin-bottom: 2.5rem;
+}
+
+/* header section.header-points h2 { */
+section.header-points h2 {
+  position: absolute;
+  top: 9.7rem;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 5.5rem;
+  font-weight: 800;
+
+  color: var(--white);
+}
+
+section.header-points p {
+  position: absolute;
+  top: 17rem;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+
+  color: var(--dark-purple);
+}
+
+section.header-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+
+  width: min(var(--mobile, 100%));
+
+  margin-inline: auto;  
+  margin-top: 0rem;
+  margin-bottom: 2.5rem;
+}
+
+section.header-description h2 {  
+  position: absolute;
+  top: 23.6rem;
+  left: 41.2%;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 600;
+
+  color: var(--white);
+}
+
+section.header-description p {  
+  position: absolute;
+  top: 27.6rem;
+  left: 3%;
+
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+
+  color: var(--light-lavender);
+
+  padding-inline: 5rem;
+}
+
+
+
